@@ -1,6 +1,22 @@
 # Smooth Scroll
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A modern, responsive website with smooth scrolling animations built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Clean Architecture**: Separation of concerns with organized component structure
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Accessibility**: WCAG 2.1 AA compliant components
+- **Performance Optimized**: Server components, optimized images, and minimal client-side JavaScript
+- **Modern UI**: Beautiful animations and transitions for enhanced user experience
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Shadcn/UI Components
+- Custom animations
 
 ## Getting Started
 
@@ -12,27 +28,28 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/(marketing)/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `app/`: Next.js App Router pages and layouts
+- `components/`: Reusable UI components
+  - `landing/`: Landing page specific components
+  - `ui/`: Shared UI components
+  - `magicui/`: Advanced animation components
+- `lib/`: Utility functions and hooks
+- `public/`: Static assets
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [TypeScript](https://www.typescriptlang.org/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deploy on Vercel for the best experience with Next.js applications.
